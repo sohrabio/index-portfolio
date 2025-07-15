@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Military Aircraft Showcase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: #222;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .card {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1rem;
+    }
+    .card-content h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1.3rem;
+      color: #00adee;
+    }
+    .card-content p {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #222;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Military Aircraft Showcase</h1>
+    <p>Explore iconic jets and aircraft from around the world</p>
+  </header>
+
+  <main class="gallery">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/F-22_Raptor_edit1_%28cropped%29.jpg/800px-F-22_Raptor_edit1_%28cropped%29.jpg" alt="F-22 Raptor">
+      <div class="card-content">
+        <h2>F-22 Raptor</h2>
+        <p>A fifth-generation stealth fighter used by the U.S. Air Force known for air superiority and advanced avionics.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sukhoi_Su-57_MAKS_2019.jpg/800px-Sukhoi_Su-57_MAKS_2019.jpg" alt="Sukhoi Su-57">
+      <div class="card-content">
+        <h2>Sukhoi Su-57</h2>
+        <p>Russia's stealth multirole fighter designed for air superiority and attack missions, featuring advanced sensors and weapons.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Dassault_Rafale_-_RIAT_2010_%285842047060%29.jpg/800px-Dassault_Rafale_-_RIAT_2010_%285842047060%29.jpg" alt="Dassault Rafale">
+      <div class="card-content">
+        <h2>Dassault Rafale</h2>
+        <p>French twin-engine multirole fighter known for agility, avionics, and combat versatility in both air-to-air and air-to-ground roles.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/McDonnell_Douglas_F-15_Eagle_in_flight_-_070912-F-5034C-040.jpg/800px-McDonnell_Douglas_F-15_Eagle_in_flight_-_070912-F-5034C-040.jpg" alt="F-15 Eagle">
+      <div class="card-content">
+        <h2>F-15 Eagle</h2>
+        <p>One of the most successful modern fighters with a perfect combat record, excelling in speed and range.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Military Aircraft Gallery. All rights reserved.
+  </footer>
+
+</body>
+</html>
+🛠️ How to Customize
+Add more planes by duplicating the <div class="card">...</div> block.
+
+Replace image URLs with your own or host images locally.
+
+Want a dark/light mode toggle or filtering by country/type? Just ask and I’ll help you add it.
+
+Would you like this turned into a dynamic JavaScript app (e.g., load aircraft from JSON)? Or add features like search, filter, or slideshow?
+
+
+
+
+No file chosenNo file chosen
+ChatGPT can make mistakes. Check important info.
